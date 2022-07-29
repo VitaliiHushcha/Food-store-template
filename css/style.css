@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.f_f_cormorant {
+    font-family: 'Cormorant', serif;
+}
+.f_f_poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+.d_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+    background-color: white;
+    padding: 20px 0;
+}
+header nav ul {
+    list-style: none;
+
+}
+header nav ul li {
+    margin-right: 40px;
+
+}
+
+header div nav ul li:first-of-type:after {
+    content: "\f107";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: relative;
+}
+header div nav ul li:nth-child(2):after {
+    content: "\f107";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: relative;
+}
+header div nav ul li:nth-child(3):after {
+    content: "\f107";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: relative;
+}
+header nav ul li:last-of-type {
+    margin-right: 146px;
+}
+header nav ul a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #1F1F1F;
+}
+.logo {
+    margin-right: 60px;
+}
+header div a {
+    text-decoration: none;
+}
+.main_banner {
+    background-image: url("../images/main_banner.jpg");
+    max-width: 1280px;
+    margin: auto;
+    padding: 125px 0 195px 0;
+    margin-bottom: 80px;
+}
+.main_banner h1 {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: #1F1F1F;
+    margin: 0 0 5px 0;
+}
+.main_banner p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 39px;
+    color: #1F1F1F;
+    margin-bottom: 48px;
+}
+.main_banner a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 8px 36px 10px 36px;
+    background: #FF8126;
+    border-radius: 5px;
+}
