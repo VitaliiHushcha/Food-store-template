@@ -6,6 +6,7 @@
 .f_f_cormorant {
     font-family: 'Cormorant', serif;
 }
+
 .f_f_poppins {
     font-family: 'Poppins', sans-serif;
 }
@@ -14,22 +15,24 @@
     max-width: 1170px;
     margin: auto;
 }
+
 .d_flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 header {
     background-color: white;
     padding: 20px 0;
 }
+
 header nav ul {
     list-style: none;
-
 }
+
 header nav ul li {
     margin-right: 40px;
-
 }
 
 header div nav ul li:first-of-type:after {
@@ -38,21 +41,25 @@ header div nav ul li:first-of-type:after {
     font-weight: 900;
     position: relative;
 }
+
 header div nav ul li:nth-child(2):after {
     content: "\f107";
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     position: relative;
 }
+
 header div nav ul li:nth-child(3):after {
     content: "\f107";
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     position: relative;
 }
+
 header nav ul li:last-of-type {
     margin-right: 146px;
 }
+
 header nav ul a {
     text-decoration: none;
     font-family: 'Poppins';
@@ -62,12 +69,15 @@ header nav ul a {
     line-height: 22px;
     color: #1F1F1F;
 }
+
 .logo {
     margin-right: 60px;
 }
+
 header div a {
     text-decoration: none;
 }
+
 .main_banner {
     background-image: url("../images/main_banner.jpg");
     max-width: 1280px;
@@ -75,6 +85,7 @@ header div a {
     padding: 125px 0 195px 0;
     margin-bottom: 80px;
 }
+
 .main_banner h1 {
     font-family: 'Cormorant';
     font-style: normal;
@@ -84,6 +95,7 @@ header div a {
     color: #1F1F1F;
     margin: 0 0 5px 0;
 }
+
 .main_banner p {
     font-family: 'Poppins';
     font-style: normal;
@@ -93,6 +105,7 @@ header div a {
     color: #1F1F1F;
     margin-bottom: 48px;
 }
+
 .main_banner a {
     text-decoration: none;
     font-family: 'Poppins';
@@ -104,4 +117,91 @@ header div a {
     padding: 8px 36px 10px 36px;
     background: #FF8126;
     border-radius: 5px;
+}
+
+/*section 2*/
+
+.latest_offers {
+    margin-bottom: 80px;
+}
+
+.latest_offers img {
+    margin-bottom: 20px;
+}
+
+.latest_offers h3 {
+    margin: auto;
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #1F1F1F;
+    margin-bottom: 40px;
+}
+
+.latest_offers h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #1F1F1F;
+    margin-bottom: 5px;
+}
+
+.latest_offers a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 6px 64px 7px 64px;
+    background: #FF8126;
+    border-radius: 5px;
+}
+
+.latest_offers_div_p {
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.latest_offers_div_p p {
+    margin-right: 5px;
+}
+
+.latest_offers_div_p p:first-of-type {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FF8126;
+}
+
+.latest_offers_div_p p:last-of-type {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration-line: line-through;
+    color: #656565;
+}
+
+.latest_offers_bg {
+    background: #F7F5F0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+.quick_shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
