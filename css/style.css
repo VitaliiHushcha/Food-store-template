@@ -127,10 +127,12 @@ header div a {
 
 .latest_offers img {
     margin-bottom: 20px;
+    display: block;
+    max-width: 270px;
+    width: 100%;
 }
 
 .latest_offers h3 {
-    margin: auto;
     font-family: 'Cormorant';
     font-style: normal;
     font-weight: 700;
@@ -139,6 +141,10 @@ header div a {
     text-align: center;
     color: #1F1F1F;
     margin-bottom: 40px;
+}
+
+.latest_offers h3 span {
+    color: #FF8126;
 }
 
 .latest_offers h5 {
@@ -165,16 +171,16 @@ header div a {
     border-radius: 5px;
 }
 
-.latest_offers_div_p {
-    justify-content: center;
+.latest_offers_bg p {
+    text-align: center;
     margin-bottom: 20px;
 }
 
-.latest_offers_div_p p {
-    margin-right: 5px;
+.latest_offers_bg p span {
+    margin-left: 5px;
 }
 
-.latest_offers_div_p p:first-of-type {
+.latest_offers_bg p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -183,7 +189,7 @@ header div a {
     color: #FF8126;
 }
 
-.latest_offers_div_p p:last-of-type {
+.latest_offers_bg p span {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -205,3 +211,6 @@ header div a {
     justify-content: center;
     align-items: center;
 }
+
+/*section 3*/
+
