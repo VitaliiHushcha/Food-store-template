@@ -219,7 +219,12 @@ header div a {
 /*section 3*/
 
 .why_choose {
-margin-bottom: 80px;
+    margin-bottom: 80px;
+
+}
+
+.why_choose .container.d_flex {
+    align-items: start;
 }
 
 .why_choose_div {
@@ -384,7 +389,7 @@ padding-bottom: 78px;
 }
 
 .city_bakery div {
-    flex-direction: column;
+    text-align: center;
 }
 
 /*section 6*/
