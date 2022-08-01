@@ -84,8 +84,7 @@ header div a {
 
 .main_banner {
     background-image: url("../images/main_banner.jpg");
-    max-width: 1280px;
-    margin: auto;
+    background-size: cover;
     padding: 125px 0 195px 0;
     margin-bottom: 80px;
 }
@@ -210,12 +209,11 @@ header div a {
     border-radius: 20px;
     padding-bottom: 20px;
     overflow: hidden;
+    text-align: center;
 }
 
 .quick_shop {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 /*section 3*/
