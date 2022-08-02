@@ -482,8 +482,16 @@ margin-bottom: 80px;
     color: #FF8126;
 }
 
+.premium_bakery_quality_div {
+    max-width: 156px;
+}
+
+.premium_bakery_quality_div a img {
+    width: 100%;
+}
+
 .premium_bakery_quality .d_flex {
-    margin-bottom: 95px;
+    padding-bottom: 95px;
 }
 
 .premium_bakery_quality .d_flex div:nth-child(2) {
