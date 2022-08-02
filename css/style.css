@@ -86,9 +86,14 @@ header div a {
     justify-content: space-between;
 }
 
-.header_img a {
-    border: #1F1F1F;
+.header_img img {
+    padding: 10px;
+    border: 1px solid silver;
+    border-radius: 50%;
+}
 
+.header_img a {
+    margin: 0 10px;
 }
 
 .main_banner {
