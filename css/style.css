@@ -61,7 +61,7 @@ header div nav ul li:nth-child(3):after {
 }
 
 header nav ul li:last-of-type {
-    margin-right: 146px;
+    margin-right: 126px;
 }
 
 header nav ul a {
@@ -87,13 +87,25 @@ header div a {
 }
 
 .header_img img {
-    padding: 10px;
-    border: 1px solid silver;
-    border-radius: 50%;
+
 }
 
 .header_img a {
     margin: 0 10px;
+    padding: 10px;
+    border: 1px solid silver;
+    border-radius: 50%;
+    transition: 0.33s;
+}
+
+.header_img a:hover {
+    transition: 0.33s;
+    border-color: cyan;
+}
+
+.header_img a:hover img {
+    transition: 0.33s;
+    transform: scale(1.3);
 }
 
 .main_banner {
