@@ -1013,6 +1013,12 @@ footer div p a {
     .main_banner .container {
         text-align: center;
     }
+    .main_banner h1 {
+        font-size: 36px;
+    }
+    .main_banner p {
+        font-size: 24px;
+    }
     /*section2*/
     .latest_offers {
         margin-bottom: 40px;
@@ -1128,5 +1134,154 @@ footer div p a {
     }
     .footer {
         padding-bottom: 40px;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .container {
+        max-width: 400px;
+    }
+    /*section1*/
+    .main_banner h1 {
+        font-size: 35px;
+    }
+    /*section2*/
+    .latest_offers img {
+        max-width: 197px;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .container {
+        max-width: 380px;
+    }
+    /*section1*/
+    .main_banner h1 {
+        font-size: 33px;
+    }
+    .main_banner p {
+        font-size: 22px;
+    }
+    /*section2*/
+    .latest_offers img {
+        max-width: 187px;
+    }
+    /*section7*/
+    .premium_bakery_quality h3 {
+        font-size: 35px;
+    }
+    .premium_bakery_quality h3 span {
+        font-size: 35px;
+    }
+    .premium_bakery_quality .d_flex {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .premium_bakery_quality_arrow:first-of-type {
+        margin-right: 10px;
+    }
+    .premium_bakery_quality_div {
+        margin: 0 10px 10px 0;
+    }
+    .premium_bakery_quality_div a img {
+        max-width: 90px;
+    }
+    /*footer*/
+    footer div a img {
+        max-width: 50px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .container {
+        max-width: 365px;
+    }
+    /*section1*/
+    .main_banner h1 {
+        font-size: 32px;
+    }
+    .main_banner p {
+        font-size: 22px;
+    }
+    /*section2*/
+    .latest_offers img {
+        max-width: 180px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .container {
+        max-width: 350px;
+    }
+    /*section1*/
+    .main_banner h1 {
+        font-size: 30px;
+    }
+    .main_banner p {
+        font-size: 20px;
+    }
+    /*section2*/
+    .latest_offers img {
+        max-width: 170px;
+    }
+    /*section3*/
+    .why_choose h3 {
+        font-size: 34px;
+    }
+    /*section4*/
+    .who_make h3 {
+        font-size: 35px;
+    }
+    /*footer*/
+    .footer {
+        flex-wrap: wrap-reverse;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .container {
+        max-width: 310px;
+    }
+    /*header*/
+    .logo img {
+        max-width: 60px;
+    }
+    /*section1*/
+    .main_banner h1 {
+        font-size: 27px;
+    }
+    .main_banner p {
+        font-size: 18px;
+    }
+    /*section2*/
+    .latest_offers img {
+        max-width: 270px;
+    }
+    .latest_offers .container.d_flex {
+        justify-content: center;
+    }
+    .latest_offers .container.d_flex .latest_offers_bg:nth-child(3) {
+        margin-bottom: 10px;
+    }
+    /*section4*/
+    .who_make h3 {
+        font-size: 33px;
+    }
+    /*section5*/
+    .city_bakery h3 {
+        font-size: 37px;
+    }
+    .city_bakery a {
+        padding: 8px 20px;
+    }
+    /*section6*/
+    .surprise_someone h3 {
+        font-size: 37px;
+    }
+    /*section7*/
+    .premium_bakery_quality h3 span {
+        font-size: 30px;
+    }
+    .premium_bakery_quality h3 {
+        font-size: 30px;
+    }
+    .premium_bakery_quality_div a img {
+        max-width: 75px;
     }
 }
