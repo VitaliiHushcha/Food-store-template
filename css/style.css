@@ -1205,6 +1205,14 @@ footer div p a {
     .latest_offers img {
         max-width: 180px;
     }
+    /*section3*/
+    .why_choose h3 {
+        font-size: 37px;
+    }
+    /*section4*/
+    .who_make h3 {
+        font-size: 37px;
+    }
 }
 @media only screen and (max-width: 360px) {
     .container {
